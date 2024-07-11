@@ -1,0 +1,23 @@
+﻿<Window x:Class="ChanoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChanoApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="300"         
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"  
+        >
+
+    <Grid>
+        <Label Content="ID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,124,0,0" FontFamily="NPS font Regular"/>
+        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,170,0,0" FontFamily="NPS font Regular"/>
+        <TextBox x:Name="idBox" HorizontalAlignment="Center" Margin="0,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="NPS font Regular" Height="19"/>
+        <Button x:Name="loginBtn" Content="Login" HorizontalAlignment="Center" Margin="0,236,0,0" VerticalAlignment="Top" Height="40" Width="120" FontFamily="NPS font Bold" BorderBrush="#FFDADADA" Background="#FFF0F0F0" Click="Button_Click"/>
+        <PasswordBox x:Name="pwBox" HorizontalAlignment="Center" Margin="0,192,0,0" VerticalAlignment="Top" Width="120" FontFamily="NPS font Regular" Height="19"/>
+
+        <!-- Frame 추가 -->
+        <Frame x:Name="mainFrame" />
+    </Grid>
+</Window>
