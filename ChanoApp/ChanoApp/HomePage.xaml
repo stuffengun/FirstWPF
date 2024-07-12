@@ -4,17 +4,37 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ChanoApp"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="Home">
+      mc:Ignorable="d" d:DesignWidth="800"
+      Title="Home" Height="360">
 
-    <Grid Background="White">
-        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,50,375,10">
+    <Grid Background="White" Height="359" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="347*"/>
+        </Grid.ColumnDefinitions>
+        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,25,390,10" Grid.ColumnSpan="2">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
+        <Menu Margin="0,0,0,339" Grid.ColumnSpan="2">
+            <MenuItem Header="Settings" Height="20" BorderBrush="{x:Null}"/>
+            <Separator Width="2" BorderBrush="{x:Null}" Background="#FFD7D7D7" Foreground="#FF595959" />
+            <MenuItem Header="New" BorderBrush="{x:Null}"/>
+        </Menu>
+        <Image HorizontalAlignment="Left" Height="160" Margin="521,30,0,0" VerticalAlignment="Top" Width="160" Grid.Column="1" />
+        <Calendar HorizontalAlignment="Left" Margin="337,25,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+
+        <Label Content="최대 글자 어디까지 " HorizontalAlignment="Left" VerticalAlignment="Top" Height="39" Width="346" ScrollViewer.HorizontalScrollBarVisibility="Visible" Grid.Column="1" Margin="337,263,0,0" BorderBrush="Black" BorderThickness="1"/>
+
+
+        <Label Content="오늘의 추천 주제" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="337,231,0,0" Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+
+
+
+
+
     </Grid>
 </Page>

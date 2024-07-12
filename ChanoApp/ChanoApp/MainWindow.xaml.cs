@@ -39,7 +39,7 @@ namespace ChanoApp
                
                  mainFrame.Navigate(uri);
                
-                this.Height = 450;
+                this.Height = 400;
                 this.Width = 800;
 
                 this.Left = (SystemParameters.PrimaryScreenWidth - this.Width) / 2;

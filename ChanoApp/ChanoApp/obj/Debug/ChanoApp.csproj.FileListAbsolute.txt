@@ -15,3 +15,5 @@ C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\C
 C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp.pdb
 C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\HomePage.g.cs
 C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\HomePage.baml
+C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\Diary.g.cs
+C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\Diary.baml
