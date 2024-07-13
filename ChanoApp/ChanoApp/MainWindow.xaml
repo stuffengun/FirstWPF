@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ChanoApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="300"         
-        ResizeMode="NoResize"
+        
         WindowStartupLocation="CenterScreen"  
         >
 

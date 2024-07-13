@@ -8,29 +8,33 @@
       Title="Home" Height="360">
 
     <Grid Background="White" Height="359" VerticalAlignment="Center">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="53*"/>
-            <ColumnDefinition Width="347*"/>
-        </Grid.ColumnDefinitions>
-        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,25,390,10" Grid.ColumnSpan="2">
+
+        <ListView x:Name="FolderListView" Margin="10,43,390,10" SelectionChanged="ListView_SelectionChanged" FontFamily="NPS font Regular" Foreground="Black">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn/>
+                    <GridViewColumn x:Name="Title" Header="제목" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn x:Name="Date" Header="작성일" DisplayMemberBinding="{Binding LastModified}"/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <Menu Margin="0,0,0,339" Grid.ColumnSpan="2">
-            <MenuItem Header="Settings" Height="20" BorderBrush="{x:Null}"/>
+        <Menu Margin="0,0,0,340" Grid.ColumnSpan="3">
+            <MenuItem x:Name="Setting" Header="설정" Height="20" BorderBrush="{x:Null}" Click="SettingClick" FontFamily="NPS font Regular"/>
             <Separator Width="2" BorderBrush="{x:Null}" Background="#FFD7D7D7" Foreground="#FF595959" />
-            <MenuItem Header="New" BorderBrush="{x:Null}"/>
+            <MenuItem x:Name="Help" Header="도움말" BorderBrush="{x:Null}" Click="HelpClick" FontFamily="NPS font Regular"/>
+            <MenuItem x:Name="New복사__C_" Header="새 일기" BorderBrush="{x:Null}" Click="NewClick" FontFamily="NPS font Regular"/>
         </Menu>
-        <Image HorizontalAlignment="Left" Height="160" Margin="521,30,0,0" VerticalAlignment="Top" Width="160" Grid.Column="1" />
-        <Calendar HorizontalAlignment="Left" Margin="337,25,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="160" Margin="617,43,0,0" VerticalAlignment="Top" Width="160" Source="/bird.png" />
 
-        <Label Content="최대 글자 어디까지 " HorizontalAlignment="Left" VerticalAlignment="Top" Height="39" Width="346" ScrollViewer.HorizontalScrollBarVisibility="Visible" Grid.Column="1" Margin="337,263,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label Content="최대 글자 어디까지 " HorizontalAlignment="Left" VerticalAlignment="Top" Height="39" Width="346" ScrollViewer.HorizontalScrollBarVisibility="Visible" Margin="434,259,0,0" BorderBrush="Black" BorderThickness="1"/>
 
 
-        <Label Content="오늘의 추천 주제" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="337,231,0,0" Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+        <Label Content="오늘의 추천 주제" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="434,226,0,0" BorderBrush="Black" BorderThickness="1" Height="28" Width="104"/>
+        <Rectangle HorizontalAlignment="Left" Height="160" Margin="434,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="160"/>
+        <Rectangle HorizontalAlignment="Left" Height="32" Margin="434,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="160"/>
+        <Label Content="Today" HorizontalAlignment="Left" Margin="434,45,0,0" VerticalAlignment="Top" Height="26" Width="43"/>
+        <Label x:Name="TimeShow" Content="00:00:00" HorizontalAlignment="Left" Margin="434,95,0,0" VerticalAlignment="Top" Height="76" Width="160" VerticalContentAlignment="Bottom" FontSize="36" Padding="2,5,5,0"/>
+        <Rectangle HorizontalAlignment="Left" Height="32" Margin="434,171,0,0" Stroke="Black" VerticalAlignment="Top" Width="160"/>
+        <Label x:Name="DateShow" Content="2024-07-13" HorizontalAlignment="Left" Margin="434,110,0,0" VerticalAlignment="Top" Width="160" Height="26"/>
 
 
 

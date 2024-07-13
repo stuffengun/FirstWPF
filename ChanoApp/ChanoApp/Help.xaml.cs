@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ChanoApp
 {
     /// <summary>
-    /// Diary.xaml에 대한 상호 작용 논리
+    /// Help.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class Diary : Window
+    public partial class Help : Window
     {
-        public Diary()
+        public Help()
         {
             InitializeComponent();
         }

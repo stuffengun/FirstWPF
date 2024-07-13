@@ -15,22 +15,17 @@ using System.Windows.Shapes;
 namespace ChanoApp
 {
     /// <summary>
-    /// UserSettings.xaml에 대한 상호 작용 논리
+    /// DiaryWrite.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class UserSettings : Window
+    public partial class DiaryWrite : Window
     {
-        public UserSettings()
+        public DiaryWrite()
         {
             InitializeComponent();
-           // UserId.Content = Properties.Settings.Default.userid;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
 
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void NewFile(object sender, MouseButtonEventArgs e)
         {
 
         }

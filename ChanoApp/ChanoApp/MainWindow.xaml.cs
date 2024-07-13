@@ -11,8 +11,7 @@ namespace ChanoApp
     {
         private Uri uri = new Uri("HomePage.xaml", UriKind.Relative);
 
-       
-
+   
         public MainWindow()
         {
             InitializeComponent();
@@ -40,7 +39,7 @@ namespace ChanoApp
                  mainFrame.Navigate(uri);
                
                 this.Height = 400;
-                this.Width = 800;
+                this.Width = 820;
 
                 this.Left = (SystemParameters.PrimaryScreenWidth - this.Width) / 2;
                 this.Top = (SystemParameters.PrimaryScreenHeight - this.Height) / 2;
