@@ -18,6 +18,6 @@
         <PasswordBox x:Name="pwBox" HorizontalAlignment="Center" Margin="0,192,0,0" VerticalAlignment="Top" Width="120" FontFamily="NPS font Regular" Height="19"/>
 
         <!-- Frame 추가 -->
-        <Frame x:Name="mainFrame" />
+        <Frame x:Name="mainFrame" Navigated="mainFrame_Navigated" />
     </Grid>
 </Window>

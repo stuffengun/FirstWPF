@@ -21,3 +21,26 @@ C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\D
 C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\DiaryWrite.baml
 C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\Help.g.cs
 C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\Help.baml
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\bin\Debug\ChanoApp.exe.config
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\bin\Debug\ChanoApp.exe
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\bin\Debug\ChanoApp.pdb
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp.csproj.AssemblyReference.cache
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\DiaryWrite.g.cs
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\Help.g.cs
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\HomePage.g.cs
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\MainWindow.g.cs
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\UserSettings.g.cs
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\App.g.cs
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp_MarkupCompile.cache
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp_MarkupCompile.lref
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\DiaryWrite.baml
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\Help.baml
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\HomePage.baml
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\MainWindow.baml
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\UserSettings.baml
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp.g.resources
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp.Properties.Resources.resources
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp.csproj.GenerateResource.cache
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp.csproj.CoreCompileInputs.cache
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp.exe
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp.pdb

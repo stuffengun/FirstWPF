@@ -52,5 +52,10 @@ namespace ChanoApp
                 MessageBox.Show("로그인 실패", "로그인");
             }
         }
+
+        private void mainFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
     }
 }

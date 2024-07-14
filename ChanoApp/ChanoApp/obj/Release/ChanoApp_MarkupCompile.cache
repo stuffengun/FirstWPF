@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\
+C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Release\
 ChanoApp
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\App.xaml
 51699074798
 
@@ -16,5 +16,5 @@ C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\A
 13-1310406943
 DiaryWrite.xaml;Help.xaml;HomePage.xaml;MainWindow.xaml;UserSettings.xaml;
 
-False
+True
 
