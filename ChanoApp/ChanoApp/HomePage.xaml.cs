@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.IO;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Threading;
@@ -50,17 +51,11 @@ namespace ChanoApp
             TimeShow.Content = DateTime.Now.ToString("hh:mm:ss");
 
 
-            FolderListView.ItemsSource = Files;
-
             FileSystemWatcher watcher = new FileSystemWatcher();
             watcher.Path = diaryPath;
-            watcher.Filter = "*.txt";//다이어리 패스의 텍스트 파일 감시중
-            watcher.Created += new FileSystemEventHandler(OnCreated);
-            watcher.EnableRaisingEvents = true;
+            watcher.Filter = "*.txt"; //다이어리 패스의 텍스트 파일 감시중
 
-
-            //diaryPath의 파일들 가져와서 
-            //제목과 작성일을 알맞은 위치에 넣기
+            // 이벤트 핸들러를 등록하기 전에 기존 파일을 불러옵니다.
             string[] existingFiles = Directory.GetFiles(diaryPath, watcher.Filter);
             foreach (string file in existingFiles)
             {
@@ -68,16 +63,13 @@ namespace ChanoApp
                 string fileName = fileInfo.Name; // 파일 이름
                 string lastModified = fileInfo.LastWriteTime.ToString(); // 마지막 수정 날짜
 
-
-                /*xaml의  
-                 * <GridViewColumn x:Name="Title" Header="제목" DisplayMemberBinding="{Binding Name}"/> -> fileName 바인딩
-                 * <GridViewColumn x:Name="Date" Header="작성일" DisplayMemberBinding="{Binding LastModified}"/>  ->lasModified 바인딩 
-                    각각 바인딩해서 추가해주면 좋겠어 
-                 */
                 diaryEntries.Add(new DiaryEntry { Name = fileName, LastModified = lastModified });
-
             }
             FolderListView.ItemsSource = diaryEntries;
+
+            // 기존 파일을 불러온 후에 이벤트 핸들러를 등록합니다.
+            watcher.Created += new FileSystemEventHandler(OnCreated); // 수정된 부분
+            watcher.EnableRaisingEvents = true;
         }
 
 
@@ -88,13 +80,18 @@ namespace ChanoApp
             {
                 FileInfo fileInfo = new FileInfo(e.FullPath);
                 string fileName = fileInfo.Name; // 파일 이름
-                string lastModified=fileInfo.LastWriteTime.ToString();
+                string lastModified = fileInfo.LastWriteTime.ToString();
 
-                //다이어리 엔트리 만들어서 콜랙션에 넣기?
-                diaryEntries.Add(new DiaryEntry { Name = fileName, LastModified = lastModified });
-
-        });
+                // 다이어리 엔트리가 이미 존재하는지 확인
+                var existingEntry = diaryEntries.FirstOrDefault(entry => entry.Name == fileName);
+                if (existingEntry == null)
+                {
+                    // 다이어리 엔트리가 존재하지 않으면 새 엔트리를 추가
+                    diaryEntries.Add(new DiaryEntry { Name = fileName, LastModified = lastModified });
+                }
+            });
         }
+
 
 
 

@@ -9,7 +9,7 @@
          ResizeMode="NoResize">
 
     <Grid>
-        <Label x:Name="UserId" Content="ID : ----" HorizontalAlignment="Left" Margin="32,27,0,0" VerticalAlignment="Top" Width="146" FontFamily="NPS font Regular"/>
+        <Label x:Name="UserIdText" Content="ID : ----" HorizontalAlignment="Left" Margin="32,27,0,0" VerticalAlignment="Top" Width="146" FontFamily="NPS font Regular"/>
         <Button x:Name="IdChangeBtn" Content="ID 변경" HorizontalAlignment="Left" Margin="123,209,0,0" VerticalAlignment="Top" Width="73" Height="16" FontSize="11" Padding="0,0,0,0" FontFamily="NPS font Regular" Click="IdChangeBtn_Click"/>
         <Button x:Name="PwChangeBtn" Content="비밀번호 변경" HorizontalAlignment="Left" Margin="123,229,0,0" VerticalAlignment="Top" Width="73" Height="16" FontSize="11" Padding="0,0,0,0" FontFamily="NPS font Regular" Click="PwChangeBtn_Click"/>
         <TextBox x:Name="NewId" HorizontalAlignment="Left" Margin="70,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" BorderBrush="{x:Null}" Background="#FFE5E5E5" TextChanged="TextBox_TextChanged" FontFamily="NPS font Regular"/>

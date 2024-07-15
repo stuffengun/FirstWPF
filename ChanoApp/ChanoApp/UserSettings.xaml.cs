@@ -23,6 +23,7 @@ namespace ChanoApp
         public UserSettings()
         {
             InitializeComponent();
+            UserIdText.Content = "ID : " + Properties.Settings.Default.userid;
         }
 
         private string userPw = Properties.Settings.Default.userpw;
