@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\ChanoApp",
-    "\\ChanoApp\\ChanoApp"
+    "\\ChanoApp\\ChanoApp",
+    "\\ChanoApp\\ChanoApp\\Properties"
   ],
-  "SelectedNode": "\\ChanoApp\\ChanoApp\\DiaryWrite.xaml.cs",
+  "SelectedNode": "\\ChanoApp\\ChanoApp\\Properties\\Settings.Designer.cs",
   "PreviewInSolutionExplorer": false
 }

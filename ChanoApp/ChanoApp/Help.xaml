@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChanoApp"
         mc:Ignorable="d"
-        Title="Help" Height="450" Width="800">
+        Title="Help" Height="460" Width="320">
     <Grid>
-        <Menu Margin="0,0,0,408"/>
+        <Image HorizontalAlignment="Center" Height="160" Margin="0,30,0,0" VerticalAlignment="Top" Width="160" Source="/bird.png" />
+        <Label HorizontalAlignment="Center" Margin="0,220,0,0" VerticalAlignment="Top" Width="280" Height="190" Content="안녕! 나는 차노차노고,&#xD;&#xA;이건 너만의 비밀 일기장이야!&#xD;&#xA;&#xD;&#xA;[새 일기] 탭을 눌러 비밀 일기를 적어봐!&#xD;&#xA;내가 너의 일기를 보고 코멘트를 달아줄게&#xD;&#xA;&#xD;&#xA;어떤 일기를 써야할지 잘 모르겠다면&#xD;&#xA;[오늘의 추천 주제]를 보고 일기를 적어도 괜찮아&#xD;&#xA;&#xD;&#xA;로그인 시 필요한 id 또는 비번을 변경하고 싶다면&#xD;&#xA;[설정] 탭을 눌러 변경할 수 있어l"/>
 
     </Grid>
 </Window>
