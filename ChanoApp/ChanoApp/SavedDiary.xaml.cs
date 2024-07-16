@@ -39,7 +39,7 @@ namespace ChanoApp
             var filePath = fileInfo.FullName;
             string fileName = fileInfo.Name;
             titleText.Content = fileName;
-
+               
             var lines = File.ReadLines(filePath, Encoding.UTF8);
             foreach (var line in lines)
             {
@@ -48,6 +48,7 @@ namespace ChanoApp
 
                 double diaryTextWidth = diaryText.Width;
             }
+            
 
         }
 
