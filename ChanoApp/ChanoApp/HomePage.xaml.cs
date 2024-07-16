@@ -4,7 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Threading;
+using System.Xml;
 
 namespace ChanoApp
 {
@@ -12,6 +14,8 @@ namespace ChanoApp
     /// HomePage.xaml에 대한 상호 작용 논리
     /// </summary>
     /// 
+    
+
     public class DiaryEntry
     {
         public string Name { get; set; }
@@ -21,6 +25,9 @@ namespace ChanoApp
 
     public partial class HomePage : Page
     {
+        
+
+
         string diaryPath = "Diary";
 
         ObservableCollection<string> Files = new ObservableCollection<string>();
@@ -35,11 +42,12 @@ namespace ChanoApp
             {
                 Directory.CreateDirectory(diaryPath);
 
-                MessageBox.Show(Directory.Exists(diaryPath).ToString());
+              //  MessageBox.Show(Directory.Exists(diaryPath).ToString());
             }
 
             DirectoryInfo dirinfo = new DirectoryInfo(diaryPath);
             dirinfo.Attributes |= FileAttributes.Hidden;
+            //dirinfo.Attributes |= FileAttributes.
 
 
             DispatcherTimer timer = new DispatcherTimer();
@@ -47,7 +55,7 @@ namespace ChanoApp
             timer.Tick += TimerTick;
             timer.Start();
 
-            DateShow.Content = DateTime.Now.ToString("yyyy-mm-dd : ddd");
+            DateShow.Content = DateTime.Now.ToString("yyyy-MM-dd : ddd");
             TimeShow.Content = DateTime.Now.ToString("hh:mm:ss");
 
 
@@ -55,23 +63,47 @@ namespace ChanoApp
             watcher.Path = diaryPath;
             watcher.Filter = "*.txt"; //다이어리 패스의 텍스트 파일 감시중
 
+            diaryEntries = new ObservableCollection<DiaryEntry>(diaryEntries.OrderBy(x => x.Name));
+            string[] diaryName;
+
             // 이벤트 핸들러를 등록하기 전에 기존 파일을 불러옵니다.
             string[] existingFiles = Directory.GetFiles(diaryPath, watcher.Filter);
             foreach (string file in existingFiles)
             {
                 FileInfo fileInfo = new FileInfo(file);
                 string fileName = fileInfo.Name; // 파일 이름
-                string lastModified = fileInfo.LastWriteTime.ToString(); // 마지막 수정 날짜
+                string lastModified = fileInfo.LastWriteTime.ToString(); // 마지막 수정 날짜5
 
+                diaryName = new string[] { Name };
                 diaryEntries.Add(new DiaryEntry { Name = fileName, LastModified = lastModified });
             }
             FolderListView.ItemsSource = diaryEntries;
 
+
             // 기존 파일을 불러온 후에 이벤트 핸들러를 등록합니다.
             watcher.Created += new FileSystemEventHandler(OnCreated); // 수정된 부분
+            watcher.Deleted += new FileSystemEventHandler(IsDeleted);
+
             watcher.EnableRaisingEvents = true;
         }
 
+        private void IsDeleted(object sender, FileSystemEventArgs e)
+        {
+            Application.Current.Dispatcher.Invoke(() =>
+            {
+                FileInfo fileInfo = new FileInfo(e.FullPath);
+                string fileName = fileInfo.Name; // 파일 이름
+                string lastModified = fileInfo.LastWriteTime.ToString();
+
+                // 다이어리 엔트리가 이미 존재하는지 확인
+                var existingEntry = diaryEntries.FirstOrDefault(entry => entry.Name == fileName);
+                if (existingEntry != null)
+                {
+                    // 다이어리 엔트리가 존재하면 엔트리를 삭제
+                    diaryEntries.Remove(existingEntry);
+                }
+            });
+        }
 
         private void OnCreated(object source, FileSystemEventArgs e)
         {
@@ -89,17 +121,15 @@ namespace ChanoApp
                     // 다이어리 엔트리가 존재하지 않으면 새 엔트리를 추가
                     diaryEntries.Add(new DiaryEntry { Name = fileName, LastModified = lastModified });
                 }
+                
             });
         }
-
-
-
 
 
         private void TimerTick(object sender, EventArgs e)
         {
             TimeShow.Content = DateTime.Now.ToString("hh:mm:ss");
-            DateShow.Content = DateTime.Now.ToString("yyyy-mm-dd : ddd");
+            DateShow.Content = DateTime.Now.ToString("yyyy-MM-dd : ddd");
         }
 
 
@@ -139,5 +169,20 @@ namespace ChanoApp
             window.Owner = Application.Current.MainWindow;
             window.Show();
         }
+
+        private void FileClick(object sender, MouseButtonEventArgs e)
+        {
+
+            int SelectRow = FolderListView.SelectedIndex;
+            var window = new SavedDiary(SelectRow);
+
+            window.Owner = Application.Current.MainWindow;
+            window.Show();
+
+        }
     }
+
+
+ 
+
 }

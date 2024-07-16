@@ -22,7 +22,6 @@ namespace ChanoApp
 
 
 
-
         private void NewFileBtnClick(object sender, RoutedEventArgs e)
         {
             if (textChanged)
@@ -93,16 +92,19 @@ namespace ChanoApp
 
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.InitialDirectory = diaryPath;
-            saveFileDialog.FileName = titleText.Text;
+            saveFileDialog.FileName = DateTime.Now.ToString("yy-MM-dd_hh.mm.ss__") + titleText.Text;
+         
+
             saveFileDialog.DefaultExt = ".txt";
             saveFileDialog.Filter = "Text documents (.txt)|*.txt";
 
             if (saveFileDialog.ShowDialog() == true)
             {
                 File.WriteAllText(saveFileDialog.FileName, diaryText.Text);
-            }
-            //이어서 짜기 
 
+            }
+
+            WorkLog.Content = "변경사항 저장됨";
 
         }
 

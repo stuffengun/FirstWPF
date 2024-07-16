@@ -31,8 +31,8 @@ namespace ChanoApp
 
             if (inputId.Equals(userId) && inputPw.Equals(userPw))
             {
-                MessageBox.Show("로그인 성공", "로그인");
-                //로그인 성공 메세지와 창 이름 
+/*                MessageBox.Show("로그인 성공", "로그인");
+*/                //로그인 성공 메세지와 창 이름 
 
                 
                

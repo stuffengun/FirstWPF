@@ -9,10 +9,10 @@
 
     <Grid Background="White" Height="359" VerticalAlignment="Center">
 
-        <ListView x:Name="FolderListView" Margin="10,43,390,10" SelectionChanged="ListView_SelectionChanged" FontFamily="NPS font Regular" Foreground="Black">
+        <ListView x:Name="FolderListView" Margin="10,43,390,10" SelectionChanged="ListView_SelectionChanged" FontFamily="NPS font Regular" Foreground="Black" MouseDoubleClick="FileClick">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn x:Name="Title" Header="제목" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn x:Name="Title" Header="제목" DisplayMemberBinding="{Binding Name}" />
                     <GridViewColumn x:Name="Date" Header="작성일" DisplayMemberBinding="{Binding LastModified}"/>
                 </GridView>
             </ListView.View>
