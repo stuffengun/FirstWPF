@@ -10,7 +10,7 @@
     <Grid>
         <Grid/>
         <Label x:Name="titleText" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="10,10,196,0"  FontFamily="NPS font Regular" FontSize="36" Background="#FFF0F0F0" BorderBrush="{x:Null}" Height="43" Width="594" Foreground="Black" Content=" "/>
-        <TextBlock x:Name="diaryText" HorizontalAlignment="Left" Margin="10,60,196,10" FontFamily="NPS font Regular" FontSize="20" Background="#FFF0F0F0" TextWrapping="Wrap" Text="TextBlock" Height="304" Width="584"/>
+        <TextBlock x:Name="diaryText" HorizontalAlignment="Left" Margin="10,60,196,10" FontFamily="NPS font Regular" FontSize="20" Background="#FFF0F0F0" TextWrapping="Wrap" Height="304" Width="584"/>
 
         <Rectangle HorizontalAlignment="Right" Height="34" Margin="0,10,10,0" VerticalAlignment="Top" Width="176" Stroke="#FFF0F0F0" StrokeThickness="3"/>
         <Button x:Name="deleteBtn" Content="삭제" HorizontalAlignment="Right" Margin="0,16,17,0" Width="162" Height="21" VerticalAlignment="Top" FontFamily="NPS font Regular" Click="DeleteBtnClick" />

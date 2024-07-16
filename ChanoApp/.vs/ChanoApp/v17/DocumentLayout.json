@@ -3,47 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\saveddiary.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\saveddiary.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\diarywrite.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\diarywrite.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\saveddiary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\saveddiary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\saveddiary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\diarywrite.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\diarywrite.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\diarywrite.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\diarywrite.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\saveddiary.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\saveddiary.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\diarywrite.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\diarywrite.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\usersettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\usersettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\usersettings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\usersettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\usersettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\usersettings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\usersettings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|c:\\users\\haae7\\documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\firstwpf\\chanoapp\\chanoapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\chanoapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A8A38CA0-B4C3-4FB9-9CD6-331520AA7F1A}|ChanoApp\\ChanoApp.csproj|solutionrelative:chanoapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 499,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,28 +63,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DiaryWrite.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\DiaryWrite.xaml.cs",
-              "RelativeDocumentMoniker": "ChanoApp\\DiaryWrite.xaml.cs",
-              "ToolTip": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\DiaryWrite.xaml.cs",
-              "RelativeToolTip": "ChanoApp\\DiaryWrite.xaml.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAIAywFwAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T09:09:33.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "ChanoApp\\HomePage.xaml.cs",
               "ToolTip": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\HomePage.xaml.cs",
               "RelativeToolTip": "ChanoApp\\HomePage.xaml.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAmwDcAAAAaAAAA",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAmwLwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T17:34:14.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T17:34:14.875Z"
             },
             {
               "$type": "Document",
@@ -100,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DiaryWrite.xaml",
               "DocumentMoniker": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\DiaryWrite.xaml",
               "RelativeDocumentMoniker": "ChanoApp\\DiaryWrite.xaml",
@@ -112,25 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\HomePage.xaml",
-              "RelativeDocumentMoniker": "ChanoApp\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\HomePage.xaml",
-              "RelativeToolTip": "ChanoApp\\HomePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-16T03:28:15.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SavedDiary.xaml.cs",
               "DocumentMoniker": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\SavedDiary.xaml.cs",
               "RelativeDocumentMoniker": "ChanoApp\\SavedDiary.xaml.cs",
               "ToolTip": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\SavedDiary.xaml.cs",
               "RelativeToolTip": "ChanoApp\\SavedDiary.xaml.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCsAAAAnAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T00:18:47.717Z",
               "EditorCaption": ""
@@ -138,6 +112,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\HomePage.xaml",
+              "RelativeDocumentMoniker": "ChanoApp\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\HomePage.xaml",
+              "RelativeToolTip": "ChanoApp\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T03:28:15.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiaryWrite.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\DiaryWrite.xaml.cs",
+              "RelativeDocumentMoniker": "ChanoApp\\DiaryWrite.xaml.cs",
+              "ToolTip": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\DiaryWrite.xaml.cs",
+              "RelativeToolTip": "ChanoApp\\DiaryWrite.xaml.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwHAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:09:33.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserSettings.xaml.cs",
               "DocumentMoniker": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\UserSettings.xaml.cs",
               "RelativeDocumentMoniker": "ChanoApp\\UserSettings.xaml.cs",
@@ -145,20 +143,18 @@
               "RelativeToolTip": "ChanoApp\\UserSettings.xaml.cs",
               "ViewState": "AQIAADwAAAAAAAAAAAAIwC0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T09:14:52.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T09:14:52.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Settings.settings",
               "DocumentMoniker": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\Properties\\Settings.settings",
               "RelativeDocumentMoniker": "ChanoApp\\Properties\\Settings.settings",
               "ToolTip": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\Properties\\Settings.settings",
               "RelativeToolTip": "ChanoApp\\Properties\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-07-16T09:19:32.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T09:19:32.466Z"
             },
             {
               "$type": "Document",
@@ -169,8 +165,7 @@
               "ToolTip": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\UserSettings.xaml",
               "RelativeToolTip": "ChanoApp\\UserSettings.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-16T09:14:48.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T09:14:48.481Z"
             },
             {
               "$type": "Document",
@@ -193,8 +188,7 @@
               "ToolTip": "C:\\Users\\haae7\\Documents\\\uBB38\uC11C\\\uC218\uC5C5\uB7C9 \uC720\uC5F0\uD654\\FirstWPF\\ChanoApp\\ChanoApp\\MainWindow.xaml",
               "RelativeToolTip": "ChanoApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-16T03:01:19.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T03:01:19.433Z"
             }
           ]
         }
