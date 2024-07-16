@@ -46,3 +46,5 @@ C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\o
 C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\ChanoApp.pdb
 C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\SavedDiary.g.cs
 C:\Users\haae7\Documents\문서\수업량 유연화\FirstWPF\ChanoApp\ChanoApp\obj\Debug\SavedDiary.baml
+C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\SavedDiary.g.cs
+C:\Users\stuff\Desktop\Everything\Githubs\FirstWPF\ChanoApp\ChanoApp\obj\Debug\SavedDiary.baml
